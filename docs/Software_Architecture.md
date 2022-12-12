@@ -4,7 +4,7 @@ CoderBot is composed of several modules which run on top of a Linux operating sy
 
 All componens are deployed as containers orchestrated by the [Balena Engine](https://balena.io/), an optimized version of the Moby project.
 
-![CoderBot Software architecture](./images/CoderBot_Software_Architecture.svg)
+![CoderBot Software architecture](./images/CoderBot_Software_architecture.svg)
 
 The CoderBot UI is a Single Page Web Application which runs in any web browser and communicates with the backend via REST APIs over HTTP.
 
