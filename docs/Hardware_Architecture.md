@@ -5,7 +5,7 @@ link:
 
 CoderBot is based on Raspberry Pi computer, equipped with a contorl board "hat".
 
-![hardware diagram](./images/CoderBot_Hardware_Architecture.svg)
+![hardware diagram](./images/CoderBot_Hardware_architecture.svg)
 
 The Raspberry is powered by a lithium-ion powerbank and is connected to an USB microphone, a speaker via the 3.5" audio jack and to the camera module via the CSI port.
 
