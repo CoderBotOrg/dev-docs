@@ -47,7 +47,7 @@ jobs:
         run: npm ci
       - name: Generate REST API docs
         run: >
-          npm i -g widdershins
+          npm i -g widdershins &&
           widdershins ../backend/coderbot/v1.yml --lang Python -o docs/api.md https://raw.githubusercontent.com/CoderBotOrg/backend/develop/coderbot/v1.yml -o docs/api.md
       - name: Static HTML export with VitePress
         run: npm run docs:build
