@@ -46,7 +46,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Generate REST API docs
-        run: docker run --rm -v "${PWD}:/local" openapitools/openapi-generator-cli generate -i https://raw.githubusercontent.com/CoderBotOrg/backend/develop/coderbot/v1.yml -g markdown -o /local/docs/api_v1
+        run: npm i -g widdershins
+        run: widdershins ../backend/coderbot/v1.yml --lang Python -o docs/api.md https://raw.githubusercontent.com/CoderBotOrg/backend/develop/coderbot/v1.yml -o docs/api.md
       - name: Static HTML export with VitePress
         run: npm run docs:build
       - name: Upload artifact

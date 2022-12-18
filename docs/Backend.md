@@ -8,7 +8,7 @@ The services are all implemented, and served, as REST API exposed by the [connex
 
 ## CoderBot API
 
-See the full specification of the [CoderBot REST API](./api_v1/README.md).
+See the full specification of the [CoderBot REST API](./api.md).
 
 ## Features
 

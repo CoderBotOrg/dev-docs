@@ -8,10 +8,12 @@ export default {
         items: [
           { text: 'Description', link: '/Description' },
           { text: 'Getting Started', link: '/Getting_started' },
+          { text: 'Deployment', link: '/Deployment' },
           { text: 'Hardware Architecture', link: '/Hardware_Architecture' },
           { text: 'Software Architecture', link: '/Software_Architecture' },
-          { text: 'Backend', link: '/Backend' },
+          { text: 'Backend API', link: '/api.md' },
           { text: 'Frontend', link: '/Frontend' },
+          { text: 'Backend', link: '/Backend' },
         ]
       }
     ]
