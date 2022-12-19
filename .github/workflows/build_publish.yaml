@@ -48,7 +48,7 @@ jobs:
       - name: Generate REST API docs
         run: >
           npm i -g widdershins &&
-          widdershins --lang Python https://raw.githubusercontent.com/CoderBotOrg/backend/develop/coderbot/v1.yml -o docs/api.md
+          widdershins https://raw.githubusercontent.com/CoderBotOrg/backend/develop/coderbot/v1.yml --lang Python -o docs/api.md
       - name: Static HTML export with VitePress
         run: npm run docs:build
       - name: Upload artifact
