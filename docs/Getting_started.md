@@ -77,8 +77,9 @@ INFO:werkzeug:Press CTRL+C to quit
 
 To see if everything is correctly configured, try to make a small change to the frontend and / or the backend
 
-1. Open a browser and load the main (landing) page [http://localhost:8080](http://localhost:8080). See the message "Welcome to CoderBot"
-2. On the frontend (if the dev server is running on the local workstation), modify the file `frontend/src/components/Landing.vue` at line 12, Change
+1. Open a browser and load the main (landing) page <a href="http://localhost:8080" target="_blank" rel="noreferrer">http://localhost:8080</a>
+2. See the message "Welcome to CoderBot"
+3. On the frontend (if the dev server is running on the local workstation), modify the file `frontend/src/components/Landing.vue` at line 12, Change
 
 ```
         <div class="logo">CoderBot</div>
@@ -87,4 +88,4 @@ to:
 ```
         <div class="logo">my first change to CoderBot</div>
 ```
-3. You should see the landing page has been changed and the message is now "Welcome to my first change to CoderBot"
+4. You should see the landing page has been changed and the message is now "Welcome to my first change to CoderBot"
