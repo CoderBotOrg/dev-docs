@@ -19,7 +19,7 @@ export default {
     ]
   },
   head: [
-    ['script', {async: true, src: 'https://www.googletagmanager.com/gtag/js?id=UA-52649755-1'}],
-    ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'UA-52649755-1');"]
+    ['script', {async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-XNTKRP57LY'}],
+    ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-XNTKRP57LY');"]
   ]
 }
