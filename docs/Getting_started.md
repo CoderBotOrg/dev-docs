@@ -52,6 +52,8 @@ The backend "stub" implements most APIs but mocks most phisycal input and output
 
 After the script has been executed, a directory named `coderbot` should be present in the `/home/pi` path.
 
+Reboot the raspberry to complete the installation, than access the raspberry via `ssh pi@coderbot.local` (note that the hostname is changed from `raspberrypi` to `coderbot`).
+
 Run the backend `cd coderbot && ./start.sh`
 
 You should see on the console the output log of the backend starting. 
