@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  title: 'CoderBot Developer documentation',
-  description: 'CoderBot Developer documentation',
+  title: 'CoderBot Developer doc',
+  description: 'CoderBot Developer doc',
   themeConfig: {
     search: {
       provider: 'local'
